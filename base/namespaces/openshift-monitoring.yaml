@@ -2,9 +2,9 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: openshift-logging
+  name: openshift-monitoring
   annotations:
     openshift.io/node-selector: ""
   labels:
     openshift.io/cluster-monitoring: "true"
-    argocd.argoproj.io/managed-by: "day2-argocd"
+    argocd.argoproj.io/managed-by: "openshift-gitops"
